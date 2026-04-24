@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Purple gamer avatar placeholder</title>
+  <desc id="desc">A stylized neon avatar with cat ears.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#3b1b69"/>
+      <stop offset=".6" stop-color="#111827"/>
+      <stop offset="1" stop-color="#050309"/>
+    </radialGradient>
+    <linearGradient id="hair" x1="0" x2="1">
+      <stop stop-color="#2e1065"/>
+      <stop offset=".45" stop-color="#581c87"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" x2="1">
+      <stop stop-color="#f0abfc"/>
+      <stop offset=".5" stop-color="#fb7185"/>
+      <stop offset="1" stop-color="#fde68a"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="410" cy="86" r="34" fill="#fde68a" opacity=".9"/>
+  <path d="M95 196 65 70l107 74zM417 196 447 70l-107 74z" fill="#f0abfc"/>
+  <path d="M108 178 85 92l72 56zM404 178l23-86-72 56z" fill="#14091c"/>
+  <circle cx="256" cy="265" r="168" fill="#7c2d12"/>
+  <path d="M100 248c24-150 284-150 312 0v208H100z" fill="url(#hair)"/>
+  <path d="M114 260c22-86 66-136 142-136s122 48 142 136c-40-32-82-46-142-46s-104 14-142 46z" fill="#0f0717" opacity=".75"/>
+  <ellipse cx="256" cy="292" rx="112" ry="94" fill="#b45309"/>
+  <path d="M156 289c38-44 71-44 98 0" stroke="#ff4fd8" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M258 289c38-44 71-44 98 0" stroke="#34d399" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M216 352c28 24 54 24 80 0" stroke="#2b102f" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M133 316 40 270M137 340 42 340M379 316l93-46M375 340h95" stroke="url(#glow)" stroke-width="7" stroke-linecap="round" opacity=".85"/>
+  <path d="M188 84h24l-12 34zM324 84h24l-12 34z" fill="#fef3c7"/>
+  <circle cx="167" cy="108" r="8" fill="#fef3c7"/>
+  <circle cx="354" cy="108" r="8" fill="#fef3c7"/>
+</svg>
