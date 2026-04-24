@@ -10,6 +10,7 @@ export function GameCard({ game }: { game: Game }) {
           src={game.image}
           alt={game.imageAlt}
           fill
+          loading="eager"
           className="object-cover transition duration-500 group-hover/card:scale-110"
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 210px"
         />
